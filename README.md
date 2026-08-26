@@ -7,6 +7,9 @@
 
 > Interactive Streamlit dashboard replicating a Power BI report — analyzing e-commerce sales performance across products, categories, months, and years with full filter capability.
 
+## 🌐 Live Demo
+**👉 [Open Dashboard](https://ecommerce-sales-analysis-dashboard1.streamlit.app/)**
+
 ---
 
 ## 🎯 Dashboard Overview
@@ -19,15 +22,13 @@
 | Avg Order Value | 3.05K |
 
 ## 📊 Charts (exact Power BI replica)
-
 - **Area Chart** — Total Sales by Month (sorted by value, purple fill)
 - **Horizontal Bar Chart** — Total Sales by Product Name (color-coded by category)
 - **Donut Chart** — Total Sales by Category (Electronics / Accessories / Office)
 
 ## 🔽 Filters
 - Category buttons — All / Electronics / Accessories / Office
-- Category dropdown
-- Year slicer (2022 / 2023 / 2024)
+- Category dropdown + Year slicer (2022 / 2023 / 2024)
 - Clear all slicers button
 
 ## 🛠️ Tech Stack
@@ -41,7 +42,7 @@
 ecommerce-sales-analysis/
 ├── app.py              # Streamlit dashboard app
 ├── data.xlsx           # E-commerce sales dataset
-├── requirements.txt    # Dependencies
+├── requirements.txt
 ├── ecommerce_sales_project/
 │   ├── Data/           # Raw data
 │   ├── sql/            # SQL queries
